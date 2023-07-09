@@ -14,17 +14,128 @@
     />
   </head>
   <body>
-    <header class="header"></header>
-    <main></main>
-    <footer class="footer"></footer>
-
-
-    <h1>My CV</h1>
-    <img
-      src="./assets/img/myPhoto.jpg"
-      alt="My photo"
-      width="200"
-      height="200"
-    />
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-wrapp">
+          <div class="column-left">
+            <img
+              src="./assets/img/myPhoto.jpg"
+              alt="My photo"
+              width="400"
+              height="400"
+            />
+          </div>
+          <div class="column-right">
+            <h1 class="header-title">Anton Sova</h1>
+            <p class="header-subtitle">Junior Front-End Developer</p>
+          </div>
+        </div>
+      </header>
+      <main>
+       
+          <section class="section" id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+              <li>Location: Kremenchuk, Ukraine</li>
+              <li>
+                <a href="https://www.linkedin.com/in/anton-sova">Linkedin</a>
+              </li>
+              <li>
+                <a href="https://github.com/Sova-Anton">Github</a>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="about">
+            <h2>About me</h2>
+            <p>
+              I am a Junior Front-End developer. I’m highly motivated and
+              passionate about creating modern and functional applications. I
+              want to continue improving my knowledge as Front-End developer
+              (JS, React, Node.js). I am eager to learn and hardworking person
+              with critical thinking skills.
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS/SASS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Redux</li>
+            </ul>
+          </section>
+          <section class="section" id="code">
+            <h2>Code example</h2>
+            <p>
+              Some team projects that i had with my classmates in GoIT-school
+            </p>
+            <ul>
+              <li>
+                <a href="https://analepekha.github.io/project-IceCream/"
+                  >IceCream</a
+                >
+              </li>
+              <li>
+                <a href="https://nerushaev.github.io/filmoteka-team-3/"
+                  >Filmoteka</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="education">
+            <h2>Education</h2>
+            <ul>
+              <li>
+                Kremenchuk University of Economics, Information Technologies and
+                Management - Marketing
+              </li>
+              <li>GoIt school - (online course) - Full Stack Developer</li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2>Languages</h2>
+            <ul>
+              <li>English- A2 (B1 in process, take English courses)</li>
+              <li>Ukrainian- Native</li>
+              <li>Russian- intermediate</li>
+            </ul>
+          </section>
+        
+      </main>
+      <footer class="footer">
+        
+          <a href="https://github.com/Sova-Anton">My Github</a>
+          <p>2023</p>
+          <a href="https://rs.school/js/"
+            ><img
+              src="./assets/img/rs_school_js.svg"
+              alt="RS school logo"
+              width="100"
+            />
+          </a>
+        
+      </footer>
+    </div>
   </body>
 </html>
