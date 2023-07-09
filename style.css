@@ -56,41 +56,51 @@ img {
 .nav-link {
   padding: 0 20px;
   line-height: 50px;
-  transition: 0.3s;
+  transition: 0.4s;
   text-decoration: none;
-  color: rgb(21, 221, 255);
+  color: #c9f5ff;
 }
 
 .nav-link:hover {
   color: aqua;
 }
 
-.header-wrapp {
-    display: flex;
+.header-wrap {
+  display: flex;
+}
+
+.avatar {
+  padding-top: 40px;
+  border-radius: 20%;
+}
+
+.main-wrap {
+  display: flex;
 }
 
 .column-left {
-  width: 35%;
-  background-color: rgb(235, 236, 238);
+  width: 40%;
+  background-color: #d8faff;
   padding: 0 40px;
 }
 
 .column-right {
-    width: 65%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 40px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  background-color: #fff4e3;
 }
 
 .header-title {
-    margin-bottom: 10px;
-    font-size: 60px;
+  margin-bottom: 10px;
+  font-size: 60px;
   text-transform: uppercase;
 }
 
 .header-subtitle {
-    font-size: 36px;
+  font-size: 36px;
 }
 
 .main-container {
@@ -98,4 +108,105 @@ img {
   flex-wrap: wrap;
 }
 
+.section {
+  padding: 20px 0;
+}
 
+.section-title {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+/* Contacts  */
+.contacts-item {
+  padding-left: 16px;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contacts-link {
+  padding-right: 16px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.contacts-link:hover {
+  color: #e59b10;
+}
+
+/* Skills */
+.skills-item {
+  padding-left: 16px;
+}
+
+.skills-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+/* Languages */
+.languages-item {
+  padding-left: 16px;
+}
+
+.languages-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+/* Code example */
+.code-text {
+  margin-bottom: 16px;
+}
+
+.code-link {
+  padding-right: 16px;
+  text-decoration: none;
+  transition: 0.4s;
+  color: #ff6262;
+}
+
+.code-link:hover {
+  color: #876cd5;
+}
+
+.code-item {
+  padding-left: 16px;
+}
+
+.code-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+/* Education */
+.education-item {
+  padding-left: 16px;
+}
+
+.education-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.education-text {
+  color: #59b1ff;
+}
+
+/* Footer */
+.footer {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #acb7ff;
+}
+
+.footer-link {
+  padding-right: 16px;
+  text-decoration: none;
+  transition: 0.4s;
+  color: #fffd9e;
+}
+
+.footer-link:hover {
+  color: #876cd5;
+}

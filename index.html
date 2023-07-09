@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="./assets/img/icon-cv.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" >
+    <link rel="icon" href="./assets/img/icon-cv.ico" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700;900&display=swap"
       rel="stylesheet"
-    />
+    >
   </head>
   <body>
     <div class="container">
@@ -36,14 +36,15 @@
             </li>
           </ul>
         </nav>
-        <div class="header-wrapp">
+        <div class="header-wrap">
           <div class="column-left">
             <img
+              class="avatar"
               src="./assets/img/myPhoto.jpg"
               alt="My photo"
               width="400"
               height="400"
-            />
+            >
           </div>
           <div class="column-right">
             <h1 class="header-title">Anton Sova</h1>
@@ -51,22 +52,55 @@
           </div>
         </div>
       </header>
-      <main>
-       
+      <main class="main-wrap">
+        <div class="column-left">
           <section class="section" id="contacts">
-            <h2>Contacts</h2>
+            <h2 class="section-title">Contacts</h2>
             <ul>
-              <li>Location: Kremenchuk, Ukraine</li>
-              <li>
-                <a href="https://www.linkedin.com/in/anton-sova">Linkedin</a>
+              <li class="contacts-item">Location: Kremenchuk, Ukraine</li>
+              <li class="contacts-item">
+                <a
+                  class="contacts-link"
+                  href="https://www.linkedin.com/in/anton-sova"
+                  target="_blank"
+                  >Linkedin</a
+                >
               </li>
-              <li>
-                <a href="https://github.com/Sova-Anton">Github</a>
+              <li class="contacts-item">
+                <a
+                  class="contacts-link"
+                  href="https://github.com/Sova-Anton"
+                  target="_blank"
+                  >Github</a
+                >
               </li>
             </ul>
           </section>
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+              <li class="skills-item">HTML</li>
+              <li class="skills-item">CSS/SASS</li>
+              <li class="skills-item">JavaScript</li>
+              <li class="skills-item">React</li>
+              <li class="skills-item">Redux</li>
+            </ul>
+          </section>
+          <section class="section" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+              <li class="languages-item">
+                English- A2 (B1 in process, take English courses)
+              </li>
+              <li class="languages-item">Ukrainian- Native</li>
+              <li class="languages-item">Russian- intermediate</li>
+            </ul>
+          </section>
+        </div>
+
+        <div class="column-right">
           <section class="section" id="about">
-            <h2>About me</h2>
+            <h2 class="section-title">About me</h2>
             <p>
               I am a Junior Front-End developer. I’m highly motivated and
               passionate about creating modern and functional applications. I
@@ -75,66 +109,60 @@
               with critical thinking skills.
             </p>
           </section>
-          <section class="section" id="skills">
-            <h2>Skills</h2>
-            <ul>
-              <li>HTML</li>
-              <li>CSS/SASS</li>
-              <li>JavaScript</li>
-              <li>React</li>
-              <li>Redux</li>
-            </ul>
-          </section>
           <section class="section" id="code">
-            <h2>Code example</h2>
-            <p>
+            <h2 class="section-title">Code example</h2>
+            <p class="code-text">
               Some team projects that i had with my classmates in GoIT-school
             </p>
             <ul>
-              <li>
-                <a href="https://analepekha.github.io/project-IceCream/"
+              <li class="code-item">
+                <a
+                  class="code-link"
+                  href="https://analepekha.github.io/project-IceCream/"
+                  target="_blank"
                   >IceCream</a
                 >
               </li>
-              <li>
-                <a href="https://nerushaev.github.io/filmoteka-team-3/"
+              <li class="code-item">
+                <a
+                  class="code-link"
+                  href="https://nerushaev.github.io/filmoteka-team-3/"
+                  target="_blank"
                   >Filmoteka</a
                 >
               </li>
             </ul>
           </section>
           <section class="section" id="education">
-            <h2>Education</h2>
+            <h2 class="section-title">Education</h2>
             <ul>
-              <li>
+              <li class="education-item">
                 Kremenchuk University of Economics, Information Technologies and
-                Management - Marketing
+                Management - <span class="education-text">Marketing</span>
               </li>
-              <li>GoIt school - (online course) - Full Stack Developer</li>
+              <li class="education-item">
+                GoIt school - (online course) -
+                <span class="education-text">Full Stack Developer</span>
+              </li>
             </ul>
           </section>
-          <section class="section" id="languages">
-            <h2>Languages</h2>
-            <ul>
-              <li>English- A2 (B1 in process, take English courses)</li>
-              <li>Ukrainian- Native</li>
-              <li>Russian- intermediate</li>
-            </ul>
-          </section>
-        
+        </div>
       </main>
       <footer class="footer">
-        
-          <a href="https://github.com/Sova-Anton">My Github</a>
-          <p>2023</p>
-          <a href="https://rs.school/js/"
-            ><img
-              src="./assets/img/rs_school_js.svg"
-              alt="RS school logo"
-              width="100"
-            />
-          </a>
-        
+        <a
+          class="footer-link"
+          href="https://github.com/Sova-Anton"
+          target="_blank"
+          >My Github</a
+        >
+        <p>2023</p>
+        <a href="https://rs.school/js/" target="_blank"
+          ><img
+            src="./assets/img/rs_school_js.svg"
+            alt="RS school logo"
+            width="100"
+          >
+        </a>
       </footer>
     </div>
   </body>
